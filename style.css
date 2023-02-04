@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&family=Rubik:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 0px auto;
+    width: 1152px;
+    position: relative;
+}
+
+.pink {
+    position: absolute;
+    border: 1px solid #EC5863;
+    width: 295.29px;
+    height: 700px;
+    background-color: #EC5863;
+    z-index: -1;
+    right: -43px;
+    top: -37px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.coronapic {
+    align-items: center;
+    margin-top: 37px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.home {
+    margin-right: 40px;
+
+}
+
+.features {
+    margin-right: 40px;
+}
+
+.support {
+    margin-right: 40px;
+}
+
+.contact us {
+    margin-right: 40px;
+}
+
+#picture {
+    display: flex;
+    align-items: center;
+}
+
+.download {
+    color: white;
+    background-color: #4285F4;
+    border: none;
+    padding: 15px 10px 15px 10px;
+    border-radius: 5px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 10px;
+
+}
+
+.main2 {
+    color: #000000;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 167px;
+    margin-bottom: 12px;
+}
+
+.main3 {
+    color: #616161;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+.pic {
+    position: absolute;
+    top: 85px;
+    right: 0;
+}
+
+.video {
+    color: #B0B0B0;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 12px;
+}
+
+.video1 {
+    color: #000000;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 9px;
+}
+
+#download.hover {
+    opacity: 70%;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    margin-top: 148px;
+}
+
+.section1 {
+    height: 663px;
+}
+
+.signup {
+    position: relative;
+    width: 260px;
+    margin: 0 100px;
+}
+
+.square1 {
+    position: absolute;
+    z-index: -1;
+}
+
+.square2 {
+    position: absolute;
+    z-index: -1;
+    right: -38px;
+    top: 302px;
+}
+
+.square3 {
+    position: absolute;
+    z-index: -1;
+    left: -5px;
+    top: 430px;
+}
+
+.text1 {
+    color: #000000;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.text2 {
+    color: #616161;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+
+}
+
+.button {
+    color: white;
+    background-color: #EC5863;
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 10px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+.square4 {
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 0px;
+    right: -39px;
+    z-index: -1;
+}
+
+.square5 {
+    position: absolute;
+    transform: rotate(-30deg);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.square6 {
+    position: absolute;
+    transform: rotate(105deg);
+    bottom: 70px;
+    left: 209px;
+    z-index: -1;
+}
+
+.stats {
+    width: 654px;
+}
+
+.stats_card {
+
+    margin-top: 132px;
+    position: relative;
+}
+
+.tex {
+    color: #000000;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 12px;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.features_text {
+    width: 380px;
+    margin-left: 150px;
+}
+
+.red_text {
+    color: #EC5863;
+}
+
+.tex1 {
+    color: #616161;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 79px;
+}
+
+.square22 {
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 149px;
+    left: 206px;
+    z-index: -1;
+}
+
+.square23 {
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 232px;
+    right: 218px;
+    z-index: -1;
+}
+
+.square24 {
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 31px;
+    left: 221px;
+    z-index: -1;
+}
+
+.square25 {
+    position: absolute;
+    transform: rotate(-30deg);
+    top: -46px;
+    left: 219px;
+    z-index: -1;
+}
+
+.andios {
+    display: flex;
+    align-items: center;
+    margin-top: 174px;
+}
+
+.t {
+    text-align: center;
+    color: #000000;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.t1 {
+    text-align: center;
+    color: #616161;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.experts {
+    color: #587EEC;
+}
+
+.health {
+    color: #587EEC;
+}
+
+.care {
+    color: #EC5863;
+}
+
+.symptom_checker {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 278px;
+    height: 276px;
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    border-radius: 8px;
+    padding-top: 36px;
+    margin-right: 72px;
+    position: relative;
+    background-color: white;
+}
+
+.title {
+    color: #000000;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 58px;
+    margin-bottom: 4px;
+}
+
+.description {
+    color: #616161;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px;
+
+
+}
+
+.medicalsupport {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 278px;
+    height: 276px;
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    border-radius: 8px;
+    padding-top: 36px;
+    margin-right: 72px;
+    background-color: white;
+    position: relative;
+}
+
+.title1 {
+    color: #000000;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 58px;
+    margin-bottom: 4px;
+}
+
+.description1 {
+    color: #616161;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px;
+
+
+}
+
+.conditions {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 278px;
+    height: 276px;
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    border-radius: 8px;
+    padding-top: 36px;
+    background-color: white;
+    position: relative;
+}
+
+.title2 {
+    color: #000000;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 58px;
+    margin-bottom: 4px;
+}
+
+.description2 {
+    color: #616161;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px;
+
+
+}
+
+.section6 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 46px;
+    justify-content: center;
+}
